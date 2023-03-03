@@ -174,7 +174,7 @@
         font-weight: 600;
     }
 }
-@media(max-width: 410px){
+@media(max-width: 413px){
     .menu {
         width: 45%;
         gap: 15px;

@@ -99,8 +99,10 @@ let burger_x = doc.querySelector('.burger_x')
 
 burger.addEventListener('click', ()=>{
     menu.classList.add('active')
+    body.style.overflow = 'hidden'
 })
 
 burger_x.addEventListener('click', ()=>{
     menu.classList.toggle('active')
+    body.style.overflow = 'auto'
 })

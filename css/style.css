@@ -220,7 +220,7 @@ button {
     display: none;
     width: 40%;
     height: 100vh;
-    padding: 20px 20px;
+    padding: 40px 20px;
     background-color: rgba(128, 128, 128, 0.529);
     backdrop-filter: blur(2px);
     display: flex;

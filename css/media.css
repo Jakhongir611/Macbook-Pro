@@ -65,14 +65,14 @@
         left: 35px;
     }
     .burger span{
-        width:40px;
-        height: 5px;
+        width:30px;
+        height: 4px;
         border-radius: 10px;
         background: gray;
         box-shadow: 0 0 1px 1px gray;
     }
     .burger:hover span:nth-child(3){
-        transform: translate(2px,-3px) rotate(45deg);
+        transform: translate(0px,-8px) rotate(45deg);
         transform-origin: left top;
     }
     .burger:hover span:nth-child(2){
@@ -91,8 +91,8 @@
         margin-bottom: 20px;
     }
     .burger_x span{
-        width:40px;
-        height: 5px;
+        width:30px;
+        height: 4px;
         border-radius: 10px;
         background: gray;
         box-shadow: 0 0 1px 1px gray;
@@ -101,14 +101,14 @@
         cursor: pointer;       
     }
     .burger_x span:nth-child(3){
-        transform: translate(2px,-3px) rotate(45deg);
+        transform: translate(0px,-8px) rotate(45deg);
         transform-origin: left top;
     }
     .burger_x span:nth-child(2){
         transform: scale(0);
     }
     .burger_x span:nth-child(1){
-        transform: translate(-10px,-25px) rotate(-45deg);
+        transform: translate(-10px,-27px) rotate(-45deg);
         transform-origin: right bottom;
     }
     .menu{

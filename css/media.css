@@ -167,4 +167,19 @@
         padding: 18px 20px 18px 20px;
         transition: 100ms;
     }
+    .menu {
+        width: 45%;
+        gap: 15px;
+        font-size: 17px;
+        font-weight: 600;
+    }
+}
+@media(max-width: 410px){
+    .menu {
+        width: 45%;
+        gap: 15px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
 }

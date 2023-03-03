@@ -93,18 +93,29 @@ let func2 = ()=>{
 mod_prc.addEventListener("click", func1)
 cros.addEventListener("click", func2)
 
-let burger = doc.querySelector('.burger')
-let menu = doc.querySelector('.menu')
-let burger_x = doc.querySelector('.burger_x')
+// let burger = doc.querySelector('.burger')
+// let menu = doc.querySelector('.menu')
+// let burger_x = doc.querySelector('.burger_x')
 
-burger.addEventListener('click', ()=>{
-    menu.classList.toggle('active')
-    body.style.overflow = 'hidden'
-    burger.classList.add('brg')
-})
+// burger.addEventListener('click', ()=>{
+//     menu.classList.toggle('active')
+//     body.style.overflow = 'hidden'
+// })
 
-burger_x.addEventListener('click', ()=>{
-    menu.classList.toggle('active')
-    body.style.overflow = 'auto'
-    burger.classList.remove('brg')
+// burger_x.addEventListener('click', ()=>{
+//     menu.classList.toggle('active')
+//     body.style.overflow = 'auto'
+// })
+
+let button_menu = doc.querySelector('.burger-menu')
+let navigation_menu = doc.querySelector('.menu')
+let top_line = doc.querySelector('.top-line')
+let center_line = doc.querySelector('.center-line')
+let bottom_line = doc.querySelector('.bottom-line')
+
+button_menu.addEventListener('click', function () {
+    navigation_menu.classList.toggle('active')
+    top_line.classList.toggle('rotate-top')
+    center_line.classList.toggle('delete-center')
+    bottom_line.classList.toggle('rotate-bottom')
 })

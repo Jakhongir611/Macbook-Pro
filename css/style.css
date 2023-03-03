@@ -223,6 +223,24 @@ button {
 
 .burger {
     display: none;
+    transition: 300ms;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.rotate-top {
+    transform: rotate(-45deg);
+}
+
+.delete-center {
+    display: none;
+}
+
+.rotate-bottom {
+    transform: rotate(45deg);
+    margin-top: -6px;
 }
 
 .menu {
@@ -237,7 +255,7 @@ button {
     position: fixed;
     gap: 15px;
     font-size: 20px;
-    top: 0;
+    top: 50px;
     left: -100%;
     font-weight: 600;
     transition: 500ms;
@@ -254,7 +272,4 @@ button {
 
 .active {
     left: 0%;
-}
-.brg{
-    opacity: 0%;
 }

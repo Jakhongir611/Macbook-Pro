@@ -54,67 +54,7 @@
     .burger_header{
         display: none;
     }
-    .burger{
-        display: flex;
-        flex-direction: column-reverse;
-        gap: 4px;
-        background: none;
-        border: 0;
-        position: absolute;
-        top: 25px;
-        left: 20px;
-    }
-    .burger span{
-        width:30px;
-        height: 4px;
-        border-radius: 10px;
-        background: gray;
-        box-shadow: 0 0 1px 1px gray;
-    }
-    .burger:hover span:nth-child(3){
-        transform: translate(0px,-8px) rotate(45deg);
-        transform-origin: left top;
-    }
-    .burger:hover span:nth-child(2){
-        transform: scale(0);
-    }
-    .burger:hover span:nth-child(1){
-        transform: translate(-10px,-27px) rotate(-45deg);
-        transform-origin: right bottom;
-    }
-    .burger_x{
-        display: flex;
-        flex-direction: column-reverse;
-        gap: 5px;
-        background: none;
-        border: 0;
-        margin-bottom: 20px;
-    }
-    .burger_x span{
-        width:30px;
-        height: 4px;
-        border-radius: 10px;
-        background: rgb(255, 255, 255);
-        box-shadow: 0 0 1px 1px rgb(255, 255, 255);
-    }
-    .burger_x:hover{
-        cursor: pointer;       
-    }
-    .burger_x span:nth-child(3){
-        transform: translate(0px,-9px) rotate(45deg);
-        transform-origin: left top;
-    }
-    .burger_x span:nth-child(2){
-        transform: scale(0);
-    }
-    .burger_x span:nth-child(1){
-        transform: translate(-10px,-29px) rotate(-45deg);
-        transform-origin: right bottom;
-    }
-    .menu{
-        display: block;
-        display: flex;
-    }
+   
 
     .okno{
         width: 460px;
@@ -144,14 +84,62 @@
         display: block;
         width: 45px;
         height: 45px;
-        position: absolute;
         top: 13px;
         right: 20px;
+    }
+    .text1{
+        width: 100%;
+        display: flex;
+        padding: 5px 20px;
+        justify-content: space-between;
+        align-items: center;
     }
 
 
 
+    .burger-menu {
+        display: flex;
+        width: 30px;
+        height: 30px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+        background-color: transparent;
+        border: none;
+        
+    }
+    .burger-menu span {
+        width: 25px;
+        height: 3px;
+        background-color: #A7A7A7;
+        border-radius: 2px;
+        transition: 300ms
+    }
 
+    .header-button {
+        display: block;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        border: 0px solid;
+        border-radius: 5px;
+
+        
+    }
+    .header-button img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .wrap-header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
 
 }
 

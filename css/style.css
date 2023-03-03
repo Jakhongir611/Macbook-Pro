@@ -221,7 +221,7 @@ button {
     width: 40%;
     height: 100vh;
     padding: 25px 20px;
-    background-color: rgba(100, 100, 100, 0.67);
+    background-color: rgba(119, 119, 119, 0.884);
     backdrop-filter: blur(2px);
     display: flex;
     flex-direction: column;

@@ -1,8 +1,8 @@
 let doc = document
 let body = document.body
 
-let btn_1 = doc.querySelectorAll('.btn_clr')[0]
-let btn_2 = doc.querySelectorAll('.btn_clr')[1]
+let btn_1 = doc.querySelector('.btn_clr1')
+let btn_2 = doc.querySelector('.btn_clr2')
 
 let price = doc.querySelector('.macbook_price')
 

@@ -86,7 +86,7 @@
     align-items: center;
 }
 
-.btn_clr {
+.btn_clr1 {
     width: 155px;
     height: 42px;
     color: gray;
@@ -95,7 +95,16 @@
     background: #CFE7FF;
     font-size: 16px;
     transition: 100ms;
-
+}
+.btn_clr2 {
+    width: 155px;
+    height: 42px;
+    color: gray;
+    border-radius: 10px;
+    border: none;
+    background: #CFE7FF;
+    font-size: 16px;
+    transition: 100ms;
 }
 
 
@@ -204,7 +213,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 .burger_header a {
@@ -232,7 +241,11 @@ button {
     left: -100%;
     font-weight: 600;
     transition: 500ms;
+    color: white;
+}
 
+.account{
+    display: none;
 }
 
 .menu a {

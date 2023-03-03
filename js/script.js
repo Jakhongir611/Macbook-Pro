@@ -98,11 +98,13 @@ let menu = doc.querySelector('.menu')
 let burger_x = doc.querySelector('.burger_x')
 
 burger.addEventListener('click', ()=>{
-    menu.classList.add('active')
+    menu.classList.toggle('active')
     body.style.overflow = 'hidden'
+    burger.classList.add('brg')
 })
 
 burger_x.addEventListener('click', ()=>{
     menu.classList.toggle('active')
     body.style.overflow = 'auto'
+    burger.classList.remove('brg')
 })

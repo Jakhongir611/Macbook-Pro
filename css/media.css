@@ -65,8 +65,8 @@
         left: 35px;
     }
     .burger span{
-        width:30px;
-        height: 4px;
+        width:40px;
+        height: 5px;
         border-radius: 10px;
         background: gray;
         box-shadow: 0 0 1px 1px gray;

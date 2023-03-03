@@ -79,7 +79,7 @@
         transform: scale(0);
     }
     .burger:hover span:nth-child(1){
-        transform: translate(-10px,-25px) rotate(-45deg);
+        transform: translate(-10px,-27px) rotate(-45deg);
         transform-origin: right bottom;
     }
     .burger_x{
@@ -101,14 +101,14 @@
         cursor: pointer;       
     }
     .burger_x span:nth-child(3){
-        transform: translate(0px,-8px) rotate(45deg);
+        transform: translate(0px,-9px) rotate(45deg);
         transform-origin: left top;
     }
     .burger_x span:nth-child(2){
         transform: scale(0);
     }
     .burger_x span:nth-child(1){
-        transform: translate(-10px,-27px) rotate(-45deg);
+        transform: translate(-10px,-29px) rotate(-45deg);
         transform-origin: right bottom;
     }
     .menu{
